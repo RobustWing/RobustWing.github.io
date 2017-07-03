@@ -1,7 +1,7 @@
 define(['text!./template.html'], function(tmpl) {
 	return {
 		template: tmpl,
-		data() {
+		data:function () {
 			return {
 				tableData: [{
 		            date: '2016-05-02',

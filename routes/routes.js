@@ -2,6 +2,7 @@ define(function (require) {
     var routes = [];
     var Home = require('pages/Home/Home');
     var Content = require('pages/Content/Content');
+    var Foods = require('pages/Foods/Foods');
 
     routes.push({
         path: '/',
@@ -11,10 +12,12 @@ define(function (require) {
     routes.push({
         path: '/home',
         component: Home
-    });
-    routes.push({
+    },{
         path: '/content',
         component: Content
+    },{
+        path: '/foods',
+        component: Foods
     });
 
     return routes;
